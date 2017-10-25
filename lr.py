@@ -1,6 +1,6 @@
 from numpy import *
 from tensorflow.python.training import gradient_descent
-
+# test git
 def compute_error_for_given_points(b, m, points):
     totalError = 0
     for i in range(0, len(points)):
